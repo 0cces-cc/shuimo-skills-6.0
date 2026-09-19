@@ -19,7 +19,7 @@ The same photograph can become a complete ink-poster painting, or extend into an
 
 Decide first; send the model only what this image needs:
 
-1. **Decisions before wording** — Ink Poster runs anchor → proposition → one authorial decision → expressive extension; Photo Graft fills an execution card locking the subject, zones P/T/I, the main exit and material placement. Missing facts stay "unknown", never invented.
+1. **Decisions before wording** — Ink Poster runs anchor → proposition → one authorial decision → expressive extension; Photo Graft fills an execution card in the order C → P → H → I → M: whole-picture composition C first, then the subject, zones P/H/I, the main exit and material placement M. Missing facts stay "unknown", never invented.
 2. **Form first, material second, release last** (graft) — the interface is concrete: which form, through which edge, continuing in which direction. Direction, width, tonal weight and branching are preserved at the boundary; scaling, merging and tapering happen only deep inside the ink field.
 3. **Five-section short prompt** — target 500–900 Chinese characters; one fact stated once; only the mechanisms chosen for this image.
 4. **Single-variable correction** — locate the primary failure, replace only that section; never append patches to the prompt tail.
@@ -35,7 +35,7 @@ Decide first; send the model only what this image needs:
 - one mineral accent color carrying structure (cinnabar, azurite, mineral green, gamboge, ochre, rouge, indigo); warm-neutral ink stays dominant;
 - modern editorial-illustration character; no antique imitation, inscriptions or seals.
 
-Full rules live in each skill's [references/](skills/shuimo-ink-6.0/references). **Both skills share one identical `ink-standard.md`** (duplicate copies; the copy in shuimo-ink-6.0 is the source of truth — sync edits to both). Graft-specific rules (photo protection, P/T/I, cross-boundary handoff) live in the graft skill's own SKILL.md and handoff.md.
+Full rules live in each skill's [references/](skills/shuimo-ink-6.0/references). **Both skills share one identical `ink-standard.md`** (duplicate copies; the copy in shuimo-ink-6.0 is the source of truth — sync edits to both). Graft-specific rules (photo protection, the C → P → H → I → M execution order, cross-boundary handoff) live in the graft skill's own SKILL.md and handoff.md.
 
 ## Install
 
