@@ -35,7 +35,7 @@ Decide first; send the model only what this image needs:
 - one mineral accent color carrying structure (cinnabar, azurite, mineral green, gamboge, ochre, rouge, indigo); warm-neutral ink stays dominant;
 - modern editorial-illustration character; no antique imitation, inscriptions or seals.
 
-Full rules live in each skill's [references/](skills/shuimo-ink-6.0/references).
+Full rules live in each skill's [references/](skills/shuimo-ink-6.0/references). **Both skills share one identical `ink-standard.md`** (duplicate copies; the copy in shuimo-ink-6.0 is the source of truth — sync edits to both). Graft-specific rules (photo protection, P/T/I, cross-boundary handoff) live in the graft skill's own SKILL.md and handoff.md.
 
 ## Install
 
@@ -68,10 +68,10 @@ shuimo-6.0/
 └── skills/
     ├── shuimo-ink-6.0/     # Ink Poster: full repaint
     │   ├── SKILL.md
-    │   └── references/     # style / method / review
+    │   └── references/     # ink-standard / method / review
     └── shuimo-graft-6.0/   # Photo Graft
         ├── SKILL.md
-        └── references/     # style / handoff / compiler / review
+        └── references/     # ink-standard / handoff / compiler / review
 ```
 
 ## About photos

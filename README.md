@@ -35,7 +35,7 @@
 - 单一矿物强调色做结构（朱砂 / 石青 / 石绿 / 藤黄 / 赭石 / 胭脂 / 花青），暖中性墨为绝对主角；
 - 现代编辑插画气质，不仿古、不落款、不印章。
 
-完整规则见各 skill 的 [references/](skills/shuimo-ink-6.0/references)。
+完整规则见各 skill 的 [references/](skills/shuimo-ink-6.0/references)。**两个 skill 共用同一份 `ink-standard.md`**（内容完全相同的双副本，以 shuimo-ink-6.0 那份为母版，修改时两边同步）；墨法标准 = 宣纸 / 墨分五色 / 完整墨法表 / 笔触气质 / 画种占比 / 三层颗粒 / 金墨三层结构 / 单一强调色 / 留白。graft 专属规则（摄影区保护、P/T/I、跨界交接）在 graft 自己的 SKILL.md 与 handoff.md 里。
 
 ## 安装
 
@@ -68,10 +68,10 @@ shuimo-6.0/
 └── skills/
     ├── shuimo-ink-6.0/     # 水墨成画：整幅重绘
     │   ├── SKILL.md
-    │   └── references/     # style / method / review
+    │   └── references/     # ink-standard / method / review
     └── shuimo-graft-6.0/   # 水墨相续：照片嫁接
         ├── SKILL.md
-        └── references/     # style / handoff / compiler / review
+        └── references/     # ink-standard / handoff / compiler / review
 ```
 
 ## 关于照片

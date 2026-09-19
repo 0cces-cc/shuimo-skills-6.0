@@ -35,7 +35,7 @@
 - 単一の鉱物アクセントカラーが構造を担う（朱砂 / 石青 / 石緑 / 藤黄 / 赭石 / 胭脂 / 花青）。暖かい中性墨が絶対的な主役；
 - 現代的な編集イラストの気質。仿古・落款・印章はなし。
 
-完全なルールは各 Skill の [references/](skills/shuimo-ink-6.0/references) を参照してください。
+完全なルールは各 Skill の [references/](skills/shuimo-ink-6.0/references) を参照してください。**2 つの Skill は同一の `ink-standard.md` を共有**します（内容が完全に同じ複製。shuimo-ink-6.0 側が原本で、変更時は両方を同期）。graft 固有のルール（写真保護、P/T/I、境界引き継ぎ）は graft 自身の SKILL.md と handoff.md にあります。
 
 ## インストール
 
@@ -68,10 +68,10 @@ shuimo-6.0/
 └── skills/
     ├── shuimo-ink-6.0/     # 水墨成画：全画面の描き直し
     │   ├── SKILL.md
-    │   └── references/     # style / method / review
+    │   └── references/     # ink-standard / method / review
     └── shuimo-graft-6.0/   # 水墨相续：写真のグラフト
         ├── SKILL.md
-        └── references/     # style / handoff / compiler / review
+        └── references/     # ink-standard / handoff / compiler / review
 ```
 
 ## 写真について

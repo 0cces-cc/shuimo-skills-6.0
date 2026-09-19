@@ -18,7 +18,7 @@ description: 以用户照片为内容依据，整幅重绘成一张完整的现�
 
 ## 2. 按需读取，不全量堆入提示词
 
-每次读取 [笔墨与金墨标准](references/style.md) 和 [创作方法](references/method.md)。收到失败图或要求复核时才读取 [检查与纠偏](references/review.md)。不要把 README、历史诊断或全部参考一起送入图像模型；不要默认加载示例，以免不同照片长出同样的构图。
+每次读取 [笔墨与金墨标准](references/ink-standard.md) 和 [创作方法](references/method.md)。收到失败图或要求复核时才读取 [检查与纠偏](references/review.md)。不要把 README、历史诊断或全部参考一起送入图像模型；不要默认加载示例，以免不同照片长出同样的构图。
 
 ## 3. 一句总纲
 
