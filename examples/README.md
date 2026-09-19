@@ -19,7 +19,7 @@ examples/
 ```markdown
 # 案例名
 
-- skill：水墨成画 shuimo-ink-5.0 / 水墨相续 shuimo-graft-5.0
+- skill：水墨成画 shuimo-ink-6.0 / 水墨相续 shuimo-graft-6.0
 - 主主体：
 - 必留关系：
 - 摄影区 P：位置与大致占比

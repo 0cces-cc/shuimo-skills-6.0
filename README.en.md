@@ -1,19 +1,19 @@
-# shuimo-5.0 — Two Ways a Photograph Becomes Ink
+# shuimo-6.0 — Two Ways a Photograph Becomes Ink
 
 **Author · @0cces-cc**
 
-[中文](README.md) · [Ink Poster SKILL](skills/shuimo-ink-5.0/SKILL.md) · [Photo Graft SKILL](skills/shuimo-graft-5.0/SKILL.md) · [Archive](examples)
+[中文](README.md) · [日本語](README.ja.md) · [Ink Poster SKILL](skills/shuimo-ink-6.0/SKILL.md) · [Photo Graft SKILL](skills/shuimo-graft-6.0/SKILL.md) · [Archive](examples)
 
 The same photograph can become a complete ink-poster painting, or extend into an ink painting while preserving the photograph's key elements. This repository holds two versions of a text-to-image Skill sharing one set of ink-generation standards.
 
-- **shuimo-ink-5.0 (Ink Poster)** — repaint the source as one complete modern-ink poster. The photograph supplies facts, relationships and character; the finished work is painting through and through, with no photographic regions retained.
-- **shuimo-graft-5.0 (Photo Graft)** — join the original photograph and newly painted ink into one work. A continuous real-photo anchor is preserved; a form from the photograph crosses the boundary, changes medium, and grows into an independently composed ink field.
+- **shuimo-ink-6.0 (Ink Poster)** — repaint the source as one complete modern-ink poster. The photograph supplies facts, relationships and character; the finished work is painting through and through, with no photographic regions retained.
+- **shuimo-graft-6.0 (Photo Graft)** — join the original photograph and newly painted ink into one work. A continuous real-photo anchor is preserved; a form from the photograph crosses the boundary, changes medium, and grows into an independently composed ink field.
 
 | | Ink Poster | Photo Graft |
 |---|---|---|
 | Role of the photo | sole content source; the result is all painting | a protected photographic layer in the final work |
 | Result | one complete modern-ink poster | real photograph + grafted ink as a single work |
-| Invoke | `$shuimo-ink-5.0` | `$shuimo-graft-5.0` |
+| Invoke | `$shuimo-ink-6.0` | `$shuimo-graft-6.0` |
 
 ## Shared discipline
 
@@ -35,13 +35,13 @@ Decide first; send the model only what this image needs:
 - one mineral accent color carrying structure (cinnabar, azurite, mineral green, gamboge, ochre, rouge, indigo); warm-neutral ink stays dominant;
 - modern editorial-illustration character; no antique imitation, inscriptions or seals.
 
-Full rules live in each skill's [references/](skills/shuimo-ink-5.0/references).
+Full rules live in each skill's [references/](skills/shuimo-ink-6.0/references).
 
 ## Install
 
 ```bash
-git clone https://github.com/0cces-cc/shuimo-5.0.git
-cp -R shuimo-5.0/skills/* ~/.codex/skills/   # Claude-family hosts: ~/.claude/skills/
+git clone https://github.com/0cces-cc/shuimo-6.0.git
+cp -R shuimo-6.0/skills/* ~/.codex/skills/   # Claude-family hosts: ~/.claude/skills/
 ```
 
 Restart the host if the Skills do not appear.
@@ -49,11 +49,11 @@ Restart the host if the Skills do not appear.
 ## Usage
 
 ```text
-Use $shuimo-ink-5.0 to repaint this photo as one complete ink poster.
+Use $shuimo-ink-6.0 to repaint this photo as one complete ink poster.
 ```
 
 ```text
-Use $shuimo-graft-5.0 to graft this photo into ink. Keep the trunk-and-eaves relationship.
+Use $shuimo-graft-6.0 to graft this photo into ink. Keep the trunk-and-eaves relationship.
 ```
 
 A concise Chinese creative note accompanies the image by default; prompt-only delivery is available on request.
@@ -61,15 +61,15 @@ A concise Chinese creative note accompanies the image by default; prompt-only de
 ## Repository layout
 
 ```text
-shuimo-5.0/
-├── README.md / README.en.md
+shuimo-6.0/
+├── README.md / README.en.md / README.ja.md
 ├── LICENSE                 # CC BY-NC 4.0
 ├── examples/               # archive: source → decision record → result
 └── skills/
-    ├── shuimo-ink-5.0/     # Ink Poster: full repaint
+    ├── shuimo-ink-6.0/     # Ink Poster: full repaint
     │   ├── SKILL.md
     │   └── references/     # style / method / review
-    └── shuimo-graft-5.0/   # Photo Graft
+    └── shuimo-graft-6.0/   # Photo Graft
         ├── SKILL.md
         └── references/     # style / handoff / compiler / review
 ```

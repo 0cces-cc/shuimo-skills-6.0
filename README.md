@@ -1,19 +1,19 @@
-# 水墨 · shuimo-5.0
+# 水墨 · shuimo-6.0
 
 **作者 / Author · @0cces-cc**
 
-[English](README.en.md) · [水墨成画 SKILL](skills/shuimo-ink-5.0/SKILL.md) · [水墨相续 SKILL](skills/shuimo-graft-5.0/SKILL.md) · [作品档案](examples)
+[English](README.en.md) · [日本語](README.ja.md) · [水墨成画 SKILL](skills/shuimo-ink-6.0/SKILL.md) · [水墨相续 SKILL](skills/shuimo-graft-6.0/SKILL.md) · [作品档案](examples)
 
 同一张照片，可以画成一整张水墨画海报，也可以在保留原图主要元素的基础上，由原图延伸出水墨画。本仓库收藏了两个版本的文生图 Skill，共用一套水墨化生成标准。
 
-- **水墨成画 · shuimo-ink-5.0** —— 以原图为准，生成一整幅完整的水墨海报。照片只提供事实、关系和气质；成品从头到尾都是画，不保留任何照片区域。
-- **水墨相续 · shuimo-graft-5.0** —— 原图与水墨的拼接嫁接。保留一块连续的真实照片锚点区，让原图中的形跨过摄影边界、改变媒介，长成独立成立的水墨场域。
+- **水墨成画 · shuimo-ink-6.0** —— 以原图为准，生成一整幅完整的水墨海报。照片只提供事实、关系和气质；成品从头到尾都是画，不保留任何照片区域。
+- **水墨相续 · shuimo-graft-6.0** —— 原图与水墨的拼接嫁接。保留一块连续的真实照片锚点区，让原图中的形跨过摄影边界、改变媒介，长成独立成立的水墨场域。
 
 | | 水墨成画 | 水墨相续 |
 |---|---|---|
 | 照片的角色 | 唯一内容来源，成品全是画 | 成品中受保护的真实摄影层 |
 | 结果 | 整幅现代水墨海报 | 真实照片 + 水墨嫁接为一件作品 |
-| 调用 | `$shuimo-ink-5.0` | `$shuimo-graft-5.0` |
+| 调用 | `$shuimo-ink-6.0` | `$shuimo-graft-6.0` |
 
 ## 核心纪律（两个 skill 共用）
 
@@ -35,13 +35,13 @@
 - 单一矿物强调色做结构（朱砂 / 石青 / 石绿 / 藤黄 / 赭石 / 胭脂 / 花青），暖中性墨为绝对主角；
 - 现代编辑插画气质，不仿古、不落款、不印章。
 
-完整规则见各 skill 的 [references/](skills/shuimo-ink-5.0/references)。
+完整规则见各 skill 的 [references/](skills/shuimo-ink-6.0/references)。
 
 ## 安装
 
 ```bash
-git clone https://github.com/0cces-cc/shuimo-5.0.git
-cp -R shuimo-5.0/skills/* ~/.codex/skills/   # Claude 系宿主对应 ~/.claude/skills/
+git clone https://github.com/0cces-cc/shuimo-6.0.git
+cp -R shuimo-6.0/skills/* ~/.codex/skills/   # Claude 系宿主对应 ~/.claude/skills/
 ```
 
 如果 Skill 没有立即出现，重启宿主。
@@ -49,11 +49,11 @@ cp -R shuimo-5.0/skills/* ~/.codex/skills/   # Claude 系宿主对应 ~/.claude/
 ## 使用
 
 ```text
-用 $shuimo-ink-5.0 把这张照片画成一整幅水墨海报。
+用 $shuimo-ink-6.0 把这张照片画成一整幅水墨海报。
 ```
 
 ```text
-用 $shuimo-graft-5.0 把这张照片接成水墨。保留树干与屋檐的关系。
+用 $shuimo-graft-6.0 把这张照片接成水墨。保留树干与屋檐的关系。
 ```
 
 除图片外，默认返回一句中文创作说明；只要提示词也可以明说。
@@ -61,15 +61,15 @@ cp -R shuimo-5.0/skills/* ~/.codex/skills/   # Claude 系宿主对应 ~/.claude/
 ## 仓库结构
 
 ```text
-shuimo-5.0/
-├── README.md / README.en.md
+shuimo-6.0/
+├── README.md / README.en.md / README.ja.md
 ├── LICENSE                 # CC BY-NC 4.0
 ├── examples/               # 作品档案（原图 → 决策记录 → 成品）
 └── skills/
-    ├── shuimo-ink-5.0/     # 水墨成画：整幅重绘
+    ├── shuimo-ink-6.0/     # 水墨成画：整幅重绘
     │   ├── SKILL.md
     │   └── references/     # style / method / review
-    └── shuimo-graft-5.0/   # 水墨相续：照片嫁接
+    └── shuimo-graft-6.0/   # 水墨相续：照片嫁接
         ├── SKILL.md
         └── references/     # style / handoff / compiler / review
 ```
